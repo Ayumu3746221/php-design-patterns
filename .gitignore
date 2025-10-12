@@ -1,0 +1,20 @@
+# Docker環境用のGitignore設定
+
+# Docker関連
+.env
+docker-compose.override.yml
+
+# PHP関連
+vendor/
+composer.lock
+*.log
+
+# IDE関連
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS関連
+.DS_Store
+Thumbs.db
